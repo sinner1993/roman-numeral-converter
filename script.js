@@ -35,7 +35,7 @@ button.onclick = ()=>{
    let res = "";
    for(let i = 0; i < arr.length; i++ ){
     
-    if(input.value == arr[i].value){
+    if(input.value == arr[i].value || Number(input.value) <= 0 && arr[i].value === "0" ){
         output.style.visibility = "visible"
         output.style.border = warningColor.border;
         output.style.color = warningColor.color;
