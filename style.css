@@ -1,0 +1,69 @@
+:root{
+    --white : rgb(210, 201, 201);
+    --body-bgColor : rgb(34, 45, 58);
+    --input : rgb(74, 71, 71);
+    --result-bgColor : #ffadad;
+    --border-result : rgb(254, 0, 0);
+}
+h1{
+color:var(--white);
+padding : 20px 0;
+font-size: 40px;
+}
+.project__name{
+font-size: 30px;
+padding-bottom: 20px;
+color: var(--white);
+letter-spacing: 0.3px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--body-bgColor);
+    text-align: center;
+}
+.input__wrapper{
+    width: 500px;
+    margin: auto;
+    background-color: var(--input);
+    display:block;
+    padding: 50px 50px;
+    border:3px solid var(--white);
+    text-align: center;
+}
+#number{
+    width: 100%;
+    margin: 15px 0;
+    font-size: 40px;
+    border: 2px solid var(--white);;
+    background-color: black;
+    color:var(--white);
+    padding-left: 10px;
+}
+label{
+   font-size: 25px;
+   color: var(--white);;
+   
+}
+#convert-btn{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+    cursor:pointer;
+}
+#output{
+    visibility: hidden;
+    width: 500px;
+    padding: 40px 20px;
+    background-color: var(--input);;
+    margin: 20px auto;
+    font-size: 25px;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
